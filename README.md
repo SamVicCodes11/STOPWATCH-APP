@@ -25,5 +25,4 @@ Click the Start button to begin timing.
 Click Pause to temporarily stop the timer.
 Click Reset to clear the timer and start over.
 
-## 🚀 Live Demo  
-🔗 [Visit the Website](https://e-cormmerce-store-for-electronics.vercel.app/)
+

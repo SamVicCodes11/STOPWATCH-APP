@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier Prime", monospace;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* header */
+header h1 {
+  text-transform: uppercase;
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/lin.png);
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* position: absolute;
+  top: 10.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+/* main */
+.main {
+  width: 90%;
+  max-width: 650px;
+  border-radius: 6px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  /* margin: 20rem auto 0; */
+  padding: 5rem 5rem 2rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* timer */
+.timer {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.time-unit {
+  font-size: 1.5rem;
+  margin-left: -1.5rem;
+}
+
+/* images */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+img {
+  width: 5rem;
+  cursor: pointer;
+}
+
+img:nth-child(2) {
+  width: 10rem;
+}
+
+/* laps */
+.laps-btn {
+  padding: 0.6rem 1rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}
+
+.lapContainer {
+  margin-top: 2rem;
+  border: 2px solid;
+  padding-top: 1rem;
+  max-width: 70%;
+  width: 60%;
+  height: 7.3rem;
+  overflow-y: auto;
+}
+
+.lap {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stop-watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>samvic stopwatch</h1>
+    </header>
+
+    <main class="main">
+      <div class="timer">
+        <span class="hour">00</span>
+        <span class="time-unit">hr</span>
+
+        <span>:</span>
+
+        <span class="minute">00</span>
+        <span class="time-unit">min</span>
+
+        <span>:</span>
+
+        <span class="second">00</span>
+        <span class="time-unit">sec</span>
+      </div>
+
+      <div class="images">
+        <img src="images/stop.png" alt="" class="stopBtn" />
+
+        <img src="images/start.png" alt="" class="startBtn" />
+
+        <img src="images/reset.png" alt="" class="resetBtn" />
+      </div>
+
+      <div>
+        <button class="laps-btn">laps</button>
+      </div>
+      <div class="lapContainer">
+        <p class="lap">lap 1 :<span>00 : 00 : 00</span></p>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
